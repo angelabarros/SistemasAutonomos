@@ -15,6 +15,8 @@ public class YourRobot extends AdvancedRobot {
             back(100);
             turnGunRight(360);
             
+            
+            
             setAdjustGunForRobotTurn(true);
             setAdjustRadarForGunTurn(true);
 		}

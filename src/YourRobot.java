@@ -58,7 +58,7 @@ public class YourRobot extends AdvancedRobot {
             }
             
             if(lastEnemyScanned != null) {
-                turnLeft(lastEnemyScanned.getBearing() * 1.6);
+                turnLeft(lastEnemyScanned.getBearing() * 1.5);
                 ahead(lastEnemyScanned.getDistance() + 18);
                 setTurnRight(60);
                 ahead(30);

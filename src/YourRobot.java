@@ -61,7 +61,7 @@ public class YourRobot extends AdvancedRobot {
                 turnLeft(lastEnemyScanned.getBearing() * 1.6);
                 ahead(lastEnemyScanned.getDistance() + 18);
                 setTurnRight(60);
-                ahead(36);
+                ahead(30);
                 this.overtakes++;
                 lastEnemyScanned = null;
                 
